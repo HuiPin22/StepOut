@@ -30,9 +30,11 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         //Initializing the tablayout
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         //Adding the tabs using addTab() method
+        tabLayout.addTab(tabLayout.newTab().setText("Menu"));
         tabLayout.addTab(tabLayout.newTab().setText("Reservation"));
         tabLayout.addTab(tabLayout.newTab().setText("Report"));
         tabLayout.addTab(tabLayout.newTab().setText("Information"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         //Initializing viewPager
         viewPager = (ViewPager) findViewById(R.id.pager);

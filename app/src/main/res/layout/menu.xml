@@ -9,7 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Report"
+        android:text="Menu"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
 
 </RelativeLayout>
